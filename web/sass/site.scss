@@ -1,0 +1,65 @@
+@import 'partials/colors';
+@import 'partials/fonts';
+@import 'partials/variables';
+@import 'partials/mixins';
+
+// GENERAL
+body {
+  background-color: $body-background-color;
+  font-family: $body-font;
+}
+
+h1 {
+  color: $headline-color;
+  font-family: $headline-font;
+  font-size: 2.5em;
+  margin: 10px;
+  text-align: center;
+  text-shadow: $text-shadow-color 2px 1px 3px;
+}
+
+a:hover {
+  color: $link-hover-color;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: $headline-font;
+  font-size: 2em;
+  text-decoration: underline;
+  text-shadow: $text-shadow-color 2px 1px 3px;
+}
+
+.icon::before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  margin-right: .25em;
+  text-rendering: auto;
+  transform: translate(0, 0);
+}
+
+// NAVBAR
+.navbar {
+  background-color: $navbar-background-color;
+  border-bottom: 1px solid $navbar-border-color;
+
+  a {
+    color: $navbar-link-color !important;
+
+    &:hover {
+      background-color: $navbar-link--hover-background !important;
+      color: $navbar-link--hover-color !important;
+    }
+  }
+}
+
+.navbar-header {
+  .navbar-brand {
+    color: $navbar-brand-color !important;
+    font-size: 1.5em;
+  }
+}
+

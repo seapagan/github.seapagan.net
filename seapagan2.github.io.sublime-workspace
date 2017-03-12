@@ -1,0 +1,967 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sass",
+				"sassPartials"
+			],
+			[
+				"ne",
+				"negative\t(data.json)"
+			],
+			[
+				"i",
+				"isProduction"
+			],
+			[
+				"n",
+				"noop"
+			],
+			[
+				"co",
+				"compress-js"
+			],
+			[
+				"com",
+				"compress-css"
+			],
+			[
+				"compr",
+				"compress-html"
+			],
+			[
+				"html",
+				"htmlmin"
+			],
+			[
+				"ht",
+				"htmlPartials"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"im",
+				"imgSource"
+			],
+			[
+				"SR",
+				"SOURCEPATHS"
+			],
+			[
+				"pri",
+				"prismWS"
+			],
+			[
+				"pr",
+				"prismYAML"
+			],
+			[
+				"css",
+				"cssSource"
+			],
+			[
+				"c",
+				"cssFiles"
+			],
+			[
+				"prism",
+				"prismjs\t(gulpfile.js)"
+			],
+			[
+				"exce",
+				"exceptions"
+			],
+			[
+				"log",
+				"logfile"
+			],
+			[
+				"remove",
+				"remove_dups"
+			],
+			[
+				"std",
+				"stdout_err"
+			],
+			[
+				"dump",
+				"dump_repo"
+			],
+			[
+				"faile",
+				"failed_list"
+			],
+			[
+				"hand",
+				"handle_err"
+			],
+			[
+				"update",
+				"updated"
+			],
+			[
+				"handle",
+				"handle_output"
+			],
+			[
+				"sk",
+				"skip_repo"
+			],
+			[
+				"ca",
+				"calling_fn"
+			],
+			[
+				"rep",
+				"repo_output"
+			],
+			[
+				"fail",
+				"failed_list"
+			],
+			[
+				"print",
+				"print_log"
+			],
+			[
+				"err",
+				"err_loc"
+			],
+			[
+				"reposit",
+				"repositories"
+			],
+			[
+				"fa",
+				"failed_list"
+			],
+			[
+				"repo",
+				"repo_url"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"post-",
+				"post-comments-badge-bg"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"po",
+				"post-row-box-color"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"up",
+				"upcase"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"nav",
+				"navbar-brand"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"content",
+				"content-width"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"foot",
+				"footer-height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"head",
+				"headline-font"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 13,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/sass/partials/_colors.scss",
+			"settings":
+			{
+				"buffer_size": 526,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 4676,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/index.html",
+			"settings":
+			{
+				"buffer_size": 170,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "web/partials/_navbar.html",
+			"settings":
+			{
+				"buffer_size": 784,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webdata.json",
+			"settings":
+			{
+				"buffer_size": 210,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "mark",
+		"selected_items":
+		[
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"git: di",
+				"Git: Diff Staged Files"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"lf",
+				"Line Endings Unify"
+			],
+			[
+				"ht",
+				"Export to HTML: Show Export Menu"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pri",
+				"Print Entire File"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"md",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ind",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"li",
+				"Line Ending: Unix"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"#",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"line",
+				"Line Ending: Unix"
+			],
+			[
+				"spac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"g",
+				"Git: Log All"
+			],
+			[
+				"gi",
+				"Git: Status"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/V/seapagan2.github.io",
+		"/V/seapagan2.github.io/docs",
+		"/V/seapagan2.github.io/web",
+		"/V/seapagan2.github.io/web/partials",
+		"/V/seapagan2.github.io/web/sass",
+		"/V/seapagan2.github.io/web/sass/partials"
+	],
+	"file_history":
+	[
+		"/V/seapagan2.github.io/webdata.json",
+		"/V/seapagan2.github.io/.scss-lint.yml",
+		"/V/update_repo/WEBSITE.md",
+		"/V/update_repo/README.md",
+		"/V/update_repo/web/gulpfile.js",
+		"/V/update_repo/web/.scss-lint.yml",
+		"/V/update_repo/web/index.html",
+		"/V/update_repo/.gitignore",
+		"/V/update_repo/web/package.json",
+		"/V/update_repo/gulpfile.js",
+		"/V/update_repo/web/sass/site.scss",
+		"/V/update_repo/webdata.json",
+		"/V/update_repo/web/js/scripts.js",
+		"/V/update_repo/docs/data.json",
+		"/V/update_repo/web/data.json",
+		"/V/update_repo/web/js/data.json",
+		"/V/update_repo/web/partials/_footer.html",
+		"/V/update_repo/web/partials/_header.html",
+		"/V/update_repo/package.json",
+		"/V/update_repo/web/partials/_navbar.html",
+		"/V/update_repo/web/partials/_license.html",
+		"/V/update_repo/web/partials/_contribute.html",
+		"/V/update_repo/web/js/site.js",
+		"/V/update_repo/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js",
+		"/V/update_repo/node_modules/prismjs/prism.js",
+		"/V/update_repo/node_modules/prismjs/components/prism-yaml.js",
+		"/V/update_repo/docs/js/main.js",
+		"/V/update_repo/node_modules/prismjs/themes/prism.css",
+		"/V/update_repo/node_modules/prismjs/components/prism-bash.js",
+		"/V/update_repo/docs/css/site.css",
+		"/V/update_repo/web/css/font-awesome.min.css",
+		"/V/update_repo/.scss-lint.yml",
+		"/V/update_repo/.rubocop.yml",
+		"/C/SublimeText/Data/Packages/User/JSON.sublime-settings",
+		"/C/SublimeText/Data/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/V/update_repo/lib/update_repo.rb",
+		"/V/update_repo/.travis.yml",
+		"/V/update_repo/lib/update_repo/cmd_config.rb",
+		"/V/update_repo/lib/update_repo/version.rb",
+		"/V/update_repo/coverage/assets/0.10.0/application.js",
+		"/D/SublimeText/Data/Packages/Git/Git.sublime-settings",
+		"/V/update_repo/lib/update_repo/logger.rb",
+		"/V/update_repo/lib/update_repo/console_output.rb",
+		"/V/update_repo/lib/update_repo/helpers.rb",
+		"/V/update_repo/lib/update_repo/git_control.rb",
+		"/V/update_repo/update_repo.gemspec",
+		"/D/SublimeText/Data/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/D/SublimeText/Data/Packages/User/trailing_spaces.sublime-settings",
+		"/V/update_repo/lib/update_repo/metrics.rb",
+		"/V/update_repo/updaterepo-161108-202533.log",
+		"/V/update_repo/updaterepo-161108-202127.log"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"prism",
+			"hliight",
+			"yaml",
+			"language-yaml",
+			"language-",
+			"lang-",
+			"file",
+			":enabled",
+			"setting",
+			"@settings",
+			"confoog",
+			"exit",
+			"BlockLength",
+			"@logfile",
+			"repo_url",
+			"fat",
+			"error",
+			"err",
+			".</",
+			"%;\n",
+			"# ",
+			"#",
+			"end",
+			"+t",
+			"#",
+			"+",
+			"false",
+			"spaces",
+			"\";\n",
+			"#CCCCCC",
+			"}\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"true",
+			"$hilight-border-color"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "web/sass/partials/_colors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3048,
+								3048
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "web/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "web/partials/_navbar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								513,
+								513
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "webdata.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 127.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/User/scss.sublime-build",
+	"project": "seapagan2.github.io.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sch",
+				"db\\schema.rb"
+			],
+			[
+				"rout",
+				"config\\routes.rb"
+			],
+			[
+				"sche",
+				"db\\schema.rb"
+			],
+			[
+				"ro",
+				"config\\routes.rb"
+			],
+			[
+				"rou",
+				"config\\routes.rb"
+			],
+			[
+				"see",
+				"db\\seeds.rb"
+			],
+			[
+				"route",
+				"config\\routes.rb"
+			],
+			[
+				"schem",
+				"db\\schema.rb"
+			],
+			[
+				"seed",
+				"db\\seeds.rb"
+			],
+			[
+				"routes",
+				"config\\routes.rb"
+			],
+			[
+				"",
+				"db\\seeds.rb"
+			],
+			[
+				"post_",
+				"app\\controllers\\posts_controller.rb"
+			],
+			[
+				"inde",
+				"app\\views\\posts\\index.html.erb"
+			],
+			[
+				"po",
+				"spec\\features\\post_spec.rb"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"rails_",
+				"spec\\rails_helper.rb"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"application.h",
+				"app\\views\\layouts\\application.html.erb"
+			],
+			[
+				"app",
+				"app\\controllers\\application_controller.rb"
+			],
+			[
+				"post_co",
+				"app\\controllers\\posts_controller.rb"
+			],
+			[
+				"user",
+				"app\\models\\user.rb"
+			],
+			[
+				"post",
+				"app\\models\\post.rb"
+			],
+			[
+				"help",
+				"spec\\rails_helper.rb"
+			],
+			[
+				"pst",
+				"app\\controllers\\posts_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"V:\\update_repo\\update_repo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
