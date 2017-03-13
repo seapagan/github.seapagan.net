@@ -19,14 +19,15 @@ var htmlreplace = require('gulp-html-replace');
 var mustache = require('gulp-mustache');
 
 var SOURCEPATHS = {
-  sassSource   : 'web/sass/*.scss',
-  sassPartials : 'web/sass/partials/*.scss',
-  htmlSource   : 'web/*.html',
-  htmlPartials : 'web/partials/*.html',
-  jsSource     : 'web/js/**',
-  cssSource    : 'web/css/**',
-  imgSource    : 'web/img/**',
-  jsonSource   : 'webdata.json'
+  sassSource      : 'web/sass/*.scss',
+  sassPartials    : 'web/sass/partials/*.scss',
+  htmlSource      : 'web/*.html',
+  htmlPartials    : 'web/partials/*.html',
+  projectPartials : 'web/projects/*.html',
+  jsSource        : 'web/js/**',
+  cssSource       : 'web/css/**',
+  imgSource       : 'web/img/**',
+  jsonSource      : 'webdata.json'
 };
 
 var APPPATH = {
@@ -125,7 +126,7 @@ gulp.task('watch', ['output-env', 'serve', 'clean-html', 'clean-scripts', 'clean
   gulp.watch([SOURCEPATHS.sassSource, SOURCEPATHS.sassPartials, SOURCEPATHS.cssSource], ['sass']);
   gulp.watch([SOURCEPATHS.jsSource], ['scripts']);
   gulp.watch([SOURCEPATHS.imgSource], ['images']);
-  gulp.watch([SOURCEPATHS.htmlSource, SOURCEPATHS.htmlPartials, SOURCEPATHS.jsonSource], ['html']);
+  gulp.watch([SOURCEPATHS.htmlSource, SOURCEPATHS.htmlPartials, SOURCEPATHS.jsonSource, SOURCEPATHS.projectPartials], ['html']);
 });
 
 gulp.task('default', ['watch']);

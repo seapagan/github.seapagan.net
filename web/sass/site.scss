@@ -41,6 +41,12 @@ h2 {
   transform: translate(0, 0);
 }
 
+.section-box {
+  @include hilight-box($color: $body-foreground-color);
+  box-shadow: 5px 5px 5px $box-shadow-color;
+  margin-bottom: 15px;
+}
+
 // NAVBAR
 .navbar {
   background-color: $navbar-background-color;
@@ -63,3 +69,49 @@ h2 {
   }
 }
 
+// ABOUT
+.about {
+  padding-top: 65px;
+
+  .brief {
+    padding: 5px;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .tagline {
+    padding-left: 10px;
+  }
+}
+
+// PROJECT
+.project {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.1em;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+  }
+
+  hr {
+    display: block;
+       position: relative;
+       padding: 0;
+       margin: 8px auto;
+       height: 0;
+       width: 100%;
+       max-height: 0;
+       font-size: 1px;
+       line-height: 0;
+       clear: both;
+       border: none;
+       border-top: 1px solid #aaaaaa;
+       border-bottom: 1px solid #ffffff;
+  }
+}

@@ -4,5 +4,20 @@
 <!-- partial:partials/_navbar.html -->
 <!-- partial -->
 
+<!-- partial:partials/_about.html -->
+<!-- partial -->
+
+<!-- This will be repeated for all of the projects defined in webdata.json -->
+{{#website.section}}
+<div id="{{name}}" class="project">
+  <div class="container section-box">
+    <h1>{{name}}</h1>
+    <h2>{{tagline}}</h2>
+    <hr />
+    <p>test</p>
+  </div>
+</div>
+{{/website.section}}
+
 <!-- partial:partials/_footer.html -->
 <!-- partial -->
