@@ -42,9 +42,7 @@ h2 {
 }
 
 .section-box {
-  @include hilight-box($color: $body-foreground-color);
-  box-shadow: 5px 5px 5px $box-shadow-color;
-  margin-bottom: 15px;
+  @include section-box($color: $body-foreground-color);
 }
 
 // NAVBAR
@@ -69,9 +67,36 @@ h2 {
   }
 }
 
+.filename {
+  @include hilight-box($color: $filename-hilight-color);
+}
+
+.yaml-tag {
+  @include hilight-box($color: $yaml-hilight-color);
+}
+
+.cmdline {
+  @include hilight-box($color: $cmdline-hilight-color);
+}
+
+.console-output {
+  @include hilight-box($color: $console-hilight-color);
+}
+
+.important-note {
+  @include hilight-box($color: $important-hilight-color);
+  font-size: 1.3em;
+  padding: 5px;
+  text-align: justify;
+  text-shadow: $text-shadow-color 2px 1px 3px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 // ABOUT
 .about {
   padding-top: 65px;
+  padding-bottom: $section-padding-bottom;
 
   .brief {
     padding: 5px;
@@ -88,30 +113,56 @@ h2 {
 
 // PROJECT
 .project {
+  padding-bottom: $section-padding-bottom;
+
   h1 {
     font-size: 2em;
   }
+
   h2 {
     font-size: 1.1em;
-    font-weight: normal;
-    text-decoration: none;
-    text-align: center;
     font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  h3 {
+    font-family: $headline-font;
+    font-size: 1.5em;
+    text-shadow: $text-shadow-color 2px 1px 3px;
   }
 
   hr {
+    border: 0;
+    border-bottom: 1px solid $hr-border-bottom-color;
+    border-top: 1px solid $hr-border-top-color;
+    clear: both;
     display: block;
-       position: relative;
-       padding: 0;
-       margin: 8px auto;
-       height: 0;
-       width: 100%;
-       max-height: 0;
-       font-size: 1px;
-       line-height: 0;
-       clear: both;
-       border: none;
-       border-top: 1px solid #aaaaaa;
-       border-bottom: 1px solid #ffffff;
+    font-size: 1px;
+    height: 0;
+    line-height: 0;
+    margin: 8px auto;
+    max-height: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+  .badges {
+    padding-bottom: 15px;
+    text-align: center;
+  }
+
+  .links {
+    text-align: center;
+  }
+
+  .toplink {
+    text-align: center;
+  }
+
+  .capitalize {
+    text-transform: capitalize;
   }
 }

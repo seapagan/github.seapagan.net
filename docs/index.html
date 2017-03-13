@@ -38,10 +38,10 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#Update_repo">Update_repo</a></li>
-        <li><a href="#Confoog">Confoog</a></li>
-        <li><a href="#Optioneer">Optioneer</a></li>
-        <li><a href="#Dev-Shell">Dev-Shell</a></li>
+        <li><a href="#update_repo">update_repo</a></li>
+        <li><a href="#confoog">confoog</a></li>
+        <li><a href="#optioneer">optioneer</a></li>
+        <li><a href="#dev-shell">dev-shell</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -52,19 +52,19 @@
   <div class="container section-box">
     <p>These pages briefly describe some of my open-source projects hosted on Github, most of which will have a link to their own web pages for further information.</p>
     <div class="brief">
-      <div class="name"><a href="#Update_repo">Update_repo</a></div>
+      <div class="name"><a href="#update_repo">update_repo</a></div>
       <div class="tagline">A Simple Gem to keep multiple cloned Git Repositories up to date.</div>
     </div>
     <div class="brief">
-      <div class="name"><a href="#Confoog">Confoog</a></div>
+      <div class="name"><a href="#confoog">confoog</a></div>
       <div class="tagline">Use YAML Configuration files in your Ruby applications and Gems.</div>
     </div>
     <div class="brief">
-      <div class="name"><a href="#Optioneer">Optioneer</a></div>
+      <div class="name"><a href="#optioneer">optioneer</a></div>
       <div class="tagline">A Ruby Gem to parse command line options. Yes, another one!</div>
     </div>
     <div class="brief">
-      <div class="name"><a href="#Dev-Shell">Dev-Shell</a></div>
+      <div class="name"><a href="#dev-shell">dev-shell</a></div>
       <div class="tagline">A Perl Script with layout and support files to automatically create a windows-based MSYS &#x2F; MinGW development system from scratch.</div>
     </div>
   </div>
@@ -72,36 +72,131 @@
 
 
 <!-- This will be repeated for all of the projects defined in webdata.json -->
-<div id="Update_repo" class="project">
+<div id="update_repo" class="project">
   <div class="container section-box">
-    <h1>Update_repo</h1>
+    <h1 class="capitalize">update_repo</h1>
     <h2>A Simple Gem to keep multiple cloned Git Repositories up to date.</h2>
     <hr />
-    <p>test</p>
+    <div class="badges">
+      <a href="https://travis-ci.org/seapagan/update_repo"><img src="https://travis-ci.org/seapagan/update_repo.svg?branch=master"></a>
+      <a href="https://badge.fury.io/rb/update_repo"><img src="https://badge.fury.io/rb/update_repo.svg"></a></a>
+    </div>
+    <div class="row row-body">
+      <div class="col-lg-12 col-md-12">
+        <h3>Summary</h3>
+<p>The script will simply run <span class="console-output">git pull</span> on every local clone of a git repository that it finds under the specified directory or directories.</p>
+<h3>Pre-requirements</h3>
+<p>It goes without saying that at the very least a working copy of both Git and Ruby need to be installed on your machine. Also, the script has only been tested under Linux, not windows.</p>
+<h3>Quick start</h3>
+<p>Create a <a class="icon fa-external-link" target="_blank" href="http://yaml.org/">YAML</a>-formatted configuration file called <span class="filename">.updaterepo</span> (note the 'dot' at the start!) in your home directory that contains at least a <span class="yaml-tag">location:</span> tag pointing to the directory containing the git repositories you wish to have updated :</p>
+<pre><code class="language-yaml">
+---
+location:
+- /media/myuser/git-repos
+- /data/RepoDir
+</code></pre>
+<p>The directory or directories specified (there can be 1 root directory or as many as you wish) must already exist, and can be nested as deep as you wish with many repositories in many subdirectories.</p>
+<p>This is the most basic example of a configuration file and there are other options that can be added to fine-tune the operation - see the description of configuration options on the dedicated website.</p>
+<p>Now, run the script from anywhere :</p>
+<pre><code>update_repo</code></pre>
+<p><b>Note:</b> From version 0.9.0 onwards, the default mode of operation is <b>non-verbose</b>. If you wish the same output as previous versions then specify <span class="cmdline">--verbose</span> on the command line or <span class="yaml-tag">verbose: true</span> in the configuration file.</p>
+
+      </div>
+    </div>
+    <hr />
+    <div class="row links">
+      <div class="col-sm-6 capitalize">
+        Visit the <a class="icon fa-home" target="_blank" href="https:&#x2F;&#x2F;updaterepo.seapagan.net&#x2F;">update_repo</a> Website for more information.
+      </div>
+        <div class="col-sm-6 capitalize">Fork <a class="icon fa-github" target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;seapagan&#x2F;update_repo">update_repo</a> on GitHub and contribute!</div>
+    </div>
+    <div class="toplink">
+      <a href="#"><span class="fa fa-arrow-up"></span> top</a>
+    </div>
   </div>
 </div>
-<div id="Confoog" class="project">
+<div id="confoog" class="project">
   <div class="container section-box">
-    <h1>Confoog</h1>
+    <h1 class="capitalize">confoog</h1>
     <h2>Use YAML Configuration files in your Ruby applications and Gems.</h2>
     <hr />
-    <p>test</p>
+    <div class="badges">
+      <a href="https://travis-ci.org/seapagan/confoog"><img src="https://travis-ci.org/seapagan/confoog.svg?branch=master"></a>
+      <a href="https://badge.fury.io/rb/confoog"><img src="https://badge.fury.io/rb/confoog.svg"></a></a>
+    </div>
+    <div class="row row-body">
+      <div class="col-lg-12 col-md-12">
+        
+      </div>
+    </div>
+    <hr />
+    <div class="row links">
+      <div class="col-sm-6 capitalize">
+        Visit the <a class="icon fa-home" target="_blank" href="http:&#x2F;&#x2F;confoog.seapagan.net&#x2F;">confoog</a> Website for more information.
+      </div>
+        <div class="col-sm-6 capitalize">Fork <a class="icon fa-github" target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;seapagan&#x2F;confoog">confoog</a> on GitHub and contribute!</div>
+    </div>
+    <div class="toplink">
+      <a href="#"><span class="fa fa-arrow-up"></span> top</a>
+    </div>
   </div>
 </div>
-<div id="Optioneer" class="project">
+<div id="optioneer" class="project">
   <div class="container section-box">
-    <h1>Optioneer</h1>
+    <h1 class="capitalize">optioneer</h1>
     <h2>A Ruby Gem to parse command line options. Yes, another one!</h2>
     <hr />
-    <p>test</p>
+    <div class="badges">
+      <a href="https://travis-ci.org/seapagan/optioneer"><img src="https://travis-ci.org/seapagan/optioneer.svg?branch=master"></a>
+      <a href="https://badge.fury.io/rb/optioneer"><img src="https://badge.fury.io/rb/optioneer.svg"></a></a>
+    </div>
+    <div class="row row-body">
+      <div class="col-lg-12 col-md-12">
+        <p>This project still in a very basic state and is not really usable in its current form.</p>
+
+      </div>
+    </div>
+    <hr />
+    <div class="row links">
+      <div class="col-sm-6 capitalize">
+      </div>
+        <div class="col-sm-6 capitalize">Fork <a class="icon fa-github" target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;seapagan&#x2F;optioneer">optioneer</a> on GitHub and contribute!</div>
+    </div>
+    <div class="toplink">
+      <a href="#"><span class="fa fa-arrow-up"></span> top</a>
+    </div>
   </div>
 </div>
-<div id="Dev-Shell" class="project">
+<div id="dev-shell" class="project">
   <div class="container section-box">
-    <h1>Dev-Shell</h1>
+    <h1 class="capitalize">dev-shell</h1>
     <h2>A Perl Script with layout and support files to automatically create a windows-based MSYS &#x2F; MinGW development system from scratch.</h2>
     <hr />
-    <p>test</p>
+    <div class="badges">
+      
+      
+    </div>
+    <div class="row row-body">
+      <div class="col-lg-12 col-md-12">
+        <div class="important-note">Note: This project is currently stagnant, I will start working on a replacement using MSYS2 when time permits.</div>
+<p>This is my custom MinGW/MSYS development system on Windows. It is a custom setup using the standard MSYS, but using the MinGW-w64 GCC distribution instead of the MinGW provided GCC binaries.</p>
+<p>The goal of this project is to be able to make a fully-reproducible and standard development package for MinGW under MS Windows, to reduce errors and frustration caused by contributors to a project using different development bases. It can be set as a development pre-req for project participation.</p>
+<p>A secondary goal is to teach myself Perl programming, this being my first attempt at that language, so please excuse the bad coding, and any suggestions for improvement are more than welcome! :) Note that the ‘TinyPerl’ in use during the bootstap phase is a very cut-down version of Perl 5.8.0, so many standard modules are not available. The full Perl 5.20.2 is available to the completed system however.</p>
+<p>The command-line environment is based around the ‘Console2’ program and also includes ANSICON to provide ANSI escape sequences in the console. The major bonus is that the whole system is completely portable and can be used on a USB stick on any windows system, without requiring any special prerequisite tools to be already installed on that system.</p>
+<p>As a major design decision this script will, for the moment, install the 32 BIT version of the MinGW compilers and libraries, Perl and Ruby. This was to allow ultimate portability and support for the multitude of libraries already existing. Once the project is mature and stable, a 64-bit branch will be added. That being said, one of the features of this project is that all the components are taken from url lists, that also contain the unpack specs, so adding extra libraries, converting to 64-bit or even removing unwanted libraries is trivial.</p>
+
+      </div>
+    </div>
+    <hr />
+    <div class="row links">
+      <div class="col-sm-6 capitalize">
+        Visit the <a class="icon fa-home" target="_blank" href="http:&#x2F;&#x2F;www.dev-shell.net&#x2F;">dev-shell</a> Website for more information.
+      </div>
+        <div class="col-sm-6 capitalize">Fork <a class="icon fa-github" target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;seapagan&#x2F;dev-shell">dev-shell</a> on GitHub and contribute!</div>
+    </div>
+    <div class="toplink">
+      <a href="#"><span class="fa fa-arrow-up"></span> top</a>
+    </div>
   </div>
 </div>
 

@@ -9094,117 +9094,6 @@ button.close {
   clip: auto;
 }
 
-body {
-  background-color: #b0b0b0;
-  font-family: "Raleway", sans-serif;
-}
-
-h1 {
-  color: #54542c;
-  font-family: "Droid Serif", sans-serif;
-  font-size: 2.5em;
-  margin: 10px;
-  text-align: center;
-  text-shadow: #aaa 2px 1px 3px;
-}
-
-a:hover {
-  color: #c00;
-  text-decoration: none;
-}
-
-h2 {
-  font-family: "Droid Serif", sans-serif;
-  font-size: 2em;
-  text-decoration: underline;
-  text-shadow: #aaa 2px 1px 3px;
-}
-
-.icon::before {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  margin-right: .25em;
-  text-rendering: auto;
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
-}
-
-.section-box {
-  border: thin solid #ccc;
-  border-radius: 6px;
-  background-color: #f5f2f0;
-  color: #111;
-  padding: 10px;
-  box-shadow: 5px 5px 5px #444;
-  margin-bottom: 15px;
-}
-
-.navbar {
-  background-color: #404040;
-  border-bottom: 1px solid #b9b9b9;
-}
-
-.navbar a {
-  color: #ccc !important;
-}
-
-.navbar a:hover {
-  background-color: #646464 !important;
-  color: #fff !important;
-}
-
-.navbar-header .navbar-brand {
-  color: #fff !important;
-  font-size: 1.5em;
-}
-
-.about {
-  padding-top: 65px;
-}
-
-.about .brief {
-  padding: 5px;
-}
-
-.about .name {
-  font-weight: bold;
-}
-
-.about .tagline {
-  padding-left: 10px;
-}
-
-.project h1 {
-  font-size: 2em;
-}
-
-.project h2 {
-  font-size: 1.1em;
-  font-weight: normal;
-  text-decoration: none;
-  text-align: center;
-  font-style: italic;
-}
-
-.project hr {
-  display: block;
-  position: relative;
-  padding: 0;
-  margin: 8px auto;
-  height: 0;
-  width: 100%;
-  max-height: 0;
-  font-size: 1px;
-  line-height: 0;
-  clear: both;
-  border: none;
-  border-top: 1px solid #aaaaaa;
-  border-bottom: 1px solid #ffffff;
-}
-
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -9341,4 +9230,194 @@ pre[class*="language-"] {
 
 .token.entity {
 	cursor: help;
+}
+
+body {
+  background-color: #b0b0b0;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  color: #54542c;
+  font-family: "Droid Serif", sans-serif;
+  font-size: 2.5em;
+  margin: 10px;
+  text-align: center;
+  text-shadow: #aaa 2px 1px 3px;
+}
+
+a:hover {
+  color: #c00;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Droid Serif", sans-serif;
+  font-size: 2em;
+  text-decoration: underline;
+  text-shadow: #aaa 2px 1px 3px;
+}
+
+.icon::before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  margin-right: .25em;
+  text-rendering: auto;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.section-box {
+  border: thin solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f2f0;
+  color: #111;
+  padding: 10px;
+  box-shadow: 3px 3px 5px #444;
+  margin-bottom: 15px;
+}
+
+.navbar {
+  background-color: #404040;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+.navbar a {
+  color: #ccc !important;
+}
+
+.navbar a:hover {
+  background-color: #646464 !important;
+  color: #fff !important;
+}
+
+.navbar-header .navbar-brand {
+  color: #fff !important;
+  font-size: 1.5em;
+}
+
+.filename {
+  font-weight: bold;
+  border: thin solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f2f0;
+  color: #444;
+  padding: 0 .3em;
+}
+
+.yaml-tag {
+  font-weight: bold;
+  border: thin solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f2f0;
+  color: #07a;
+  padding: 0 .3em;
+}
+
+.cmdline {
+  font-weight: bold;
+  border: thin solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f2f0;
+  color: #f33;
+  padding: 0 .3em;
+}
+
+.console-output {
+  font-weight: bold;
+  border: thin solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f2f0;
+  color: #444;
+  padding: 0 .3em;
+}
+
+.important-note {
+  font-weight: bold;
+  border: thin solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f2f0;
+  color: #f33;
+  padding: 0 .3em;
+  font-size: 1.3em;
+  padding: 5px;
+  text-align: justify;
+  text-shadow: #aaa 2px 1px 3px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about {
+  padding-top: 65px;
+  padding-bottom: 10px;
+}
+
+.about .brief {
+  padding: 5px;
+}
+
+.about .name {
+  font-weight: bold;
+}
+
+.about .tagline {
+  padding-left: 10px;
+}
+
+.project {
+  padding-bottom: 10px;
+}
+
+.project h1 {
+  font-size: 2em;
+}
+
+.project h2 {
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+}
+
+.project h3 {
+  font-family: "Droid Serif", sans-serif;
+  font-size: 1.5em;
+  text-shadow: #aaa 2px 1px 3px;
+}
+
+.project hr {
+  border: 0;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #aaa;
+  clear: both;
+  display: block;
+  font-size: 1px;
+  height: 0;
+  line-height: 0;
+  margin: 8px auto;
+  max-height: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.project .badges {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.project .links {
+  text-align: center;
+}
+
+.project .toplink {
+  text-align: center;
+}
+
+.project .capitalize {
+  text-transform: capitalize;
 }

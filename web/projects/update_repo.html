@@ -1,30 +1,17 @@
-
-[![Gem Version](https://badge.fury.io/rb/update_repo.svg)](https://badge.fury.io/rb/update_repo) [![Build Status](https://travis-ci.org/seapagan/update_repo.svg?branch=master)](https://travis-ci.org/seapagan/update_repo)
-
-This is the conversion to a Gem of one of my standalone Ruby scripts. Still very much work in progress, but functions as required.
-
-#### Pre-requirements
-
-It goes without saying that at the very least a working copy of both [`Git`][git] and [`Ruby`][ruby] need to be installed on your machine. Also, the script has only been tested under Linux, not windows.
-
-[git]: http://git-scm.com
-[ruby]: http://www.ruby-lang.org
-
-#### Quick start
-Create a [YAML](http://yaml.org/)-formatted configuration file `.updatereporc` **in your home directory** that contains at least a 'location' tag pointing to the directory containing the git repositories you wish to have updated :
-
-{% highlight yaml %}
+<h3>Summary</h3>
+<p>The script will simply run <span class="console-output">git pull</span> on every local clone of a git repository that it finds under the specified directory or directories.</p>
+<h3>Pre-requirements</h3>
+<p>It goes without saying that at the very least a working copy of both Git and Ruby need to be installed on your machine. Also, the script has only been tested under Linux, not windows.</p>
+<h3>Quick start</h3>
+<p>Create a <a class="icon fa-external-link" target="_blank" href="http://yaml.org/">YAML</a>-formatted configuration file called <span class="filename">.updaterepo</span> (note the 'dot' at the start!) in your home directory that contains at least a <span class="yaml-tag">location:</span> tag pointing to the directory containing the git repositories you wish to have updated :</p>
+<pre><code class="language-yaml">
 ---
 location:
 - /media/myuser/git-repos
 - /data/RepoDir
-{% endhighlight %}
-
-This is the most basic example of a configuration file and there are other options that can be added to fine-tune the operation - see the description of configuration options on the script homepage.
-
-This file should be located in the users home directory (`~/.updatereporc`).
-
-Run the script :
-```
-$ update_repo
-```
+</code></pre>
+<p>The directory or directories specified (there can be 1 root directory or as many as you wish) must already exist, and can be nested as deep as you wish with many repositories in many subdirectories.</p>
+<p>This is the most basic example of a configuration file and there are other options that can be added to fine-tune the operation - see the description of configuration options on the dedicated website.</p>
+<p>Now, run the script from anywhere :</p>
+<pre><code>update_repo</code></pre>
+<p><b>Note:</b> From version 0.9.0 onwards, the default mode of operation is <b>non-verbose</b>. If you wish the same output as previous versions then specify <span class="cmdline">--verbose</span> on the command line or <span class="yaml-tag">verbose: true</span> in the configuration file.</p>

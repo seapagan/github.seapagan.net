@@ -1,10 +1,19 @@
 @mixin hilight-box($color) {
-  // font-weight: bold;
+  font-weight: bold;
+  border: thin solid $hilight-border-color;
+  border-radius: $hilight-border-radius;
+  background-color: $hilight-background-color;
+  color: $color;
+  // padding: 10px;
+  padding: 0 .3em;
+}
+
+@mixin section-box($color) {
   border: thin solid $hilight-border-color;
   border-radius: $hilight-border-radius;
   background-color: $hilight-background-color;
   color: $color;
   padding: 10px;
+  box-shadow: 3px 3px 5px $box-shadow-color;
+  margin-bottom: 15px;
 }
-
-

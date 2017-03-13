@@ -5,28 +5,34 @@
     "tagline" : "Open source projects on GitHub",
     "section": [
       {
-        "name"     : "Update_repo",
+        "name"     : "update_repo",
         "tagline"  : "A Simple Gem to keep multiple cloned Git Repositories up to date.",
         "moreinfo" : "update_repo.html",
         "website"  : "https://updaterepo.seapagan.net/",
-        "github"   : "https://github.com/seapagan/update_repo"
+        "github"   : "https://github.com/seapagan/update_repo",
+        "travis"   : true,
+        "gembadge" : true
       },
       {
-        "name"    : "Confoog",
+        "name"    : "confoog",
         "tagline" : "Use YAML Configuration files in your Ruby applications and Gems.",
         "moreinfo" : "confoog.html",
         "website" : "http://confoog.seapagan.net/",
-        "github"  : "https://github.com/seapagan/confoog"
+        "github"  : "https://github.com/seapagan/confoog",
+        "travis"   : true,
+        "gembadge" : true
       },
       {
-        "name"    : "Optioneer",
+        "name"    : "optioneer",
         "tagline" : "A Ruby Gem to parse command line options. Yes, another one!",
         "moreinfo" : "optioneer.html",
         "website" : "",
-        "github"  : "https://github.com/seapagan/optioneer"
+        "github"  : "https://github.com/seapagan/optioneer",
+        "travis"   : true,
+        "gembadge" : true
       },
       {
-        "name"    : "Dev-Shell",
+        "name"    : "dev-shell",
         "tagline" : "A Perl Script with layout and support files to automatically create a windows-based MSYS / MinGW development system from scratch.",
         "moreinfo" : "dev-shell.html",
         "website" : "http://www.dev-shell.net/",

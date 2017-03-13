@@ -11,10 +11,33 @@
 {{#website.section}}
 <div id="{{name}}" class="project">
   <div class="container section-box">
-    <h1>{{name}}</h1>
+    <h1 class="capitalize">{{name}}</h1>
     <h2>{{tagline}}</h2>
     <hr />
-    <p>test</p>
+    <div class="badges">
+      {{#travis}}<a href="https://travis-ci.org/seapagan/{{name}}"><img src="https://travis-ci.org/seapagan/{{name}}.svg?branch=master"></a>{{/travis}}
+      {{#gembadge}}<a href="https://badge.fury.io/rb/{{name}}"><img src="https://badge.fury.io/rb/{{name}}.svg"></a></a>{{/gembadge}}
+    </div>
+    <div class="row row-body">
+      <div class="col-lg-12 col-md-12">
+        <!-- partial:projects/{{moreinfo}} -->
+        <!-- partial -->
+      </div>
+    </div>
+    <hr />
+    <div class="row links">
+      <div class="col-sm-6 capitalize">
+        {{#website}}
+        Visit the <a class="icon fa-home" target="_blank" href="{{website}}">{{name}}</a> Website for more information.
+        {{/website}}
+      </div>
+      {{#github}}
+        <div class="col-sm-6 capitalize">Fork <a class="icon fa-github" target="_blank" href="{{github}}">{{name}}</a> on GitHub and contribute!</div>
+      {{/github}}
+    </div>
+    <div class="toplink">
+      <a href="#"><span class="fa fa-arrow-up"></span> top</a>
+    </div>
   </div>
 </div>
 {{/website.section}}
