@@ -9335,6 +9335,15 @@ h2 {
   padding: 0 .3em;
 }
 
+.link-hilight {
+  font-weight: bold;
+  border: thin solid #ccc;
+  border-radius: 10px;
+  background-color: #f5f2f0;
+  color: #444;
+  padding: 0 .3em;
+}
+
 .important-note {
   font-weight: bold;
   border: thin solid #ccc;
@@ -9420,4 +9429,21 @@ h2 {
 
 .project .capitalize {
   text-transform: capitalize;
+}
+
+.footer {
+  padding-bottom: 10px;
+  color: #555;
+}
+
+.footer a {
+  color: #111;
+}
+
+.footer a:hover {
+  color: #c00;
+}
+
+.footer .site-version {
+  color: #000;
 }

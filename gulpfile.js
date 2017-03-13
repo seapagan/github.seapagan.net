@@ -77,9 +77,10 @@ gulp.task('sass', function() {
 gulp.task('scripts', function() {
   var prismJS = './node_modules/prismjs/prism.js';
   var prismYAML = './node_modules/prismjs/components/prism-yaml.js';
+  var prismRuby = './node_modules/prismjs/components/prism-ruby.js';
   var prismWS =  './node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js';
 
-  gulp.src([SOURCEPATHS.jsSource, prismJS, prismYAML, prismWS])
+  gulp.src([SOURCEPATHS.jsSource, prismJS, prismYAML, prismRuby, prismWS])
     .pipe(concat('main.js'))
     .pipe(browserify())
     .pipe(isProduction ? minify({noSource: true}) : gutil.noop())

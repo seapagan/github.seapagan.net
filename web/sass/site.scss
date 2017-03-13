@@ -83,6 +83,10 @@ h2 {
   @include hilight-box($color: $console-hilight-color);
 }
 
+.link-hilight {
+  @include hilight-box($color: $console-hilight-color);
+}
+
 .important-note {
   @include hilight-box($color: $important-hilight-color);
   font-size: 1.3em;
@@ -164,5 +168,23 @@ h2 {
 
   .capitalize {
     text-transform: capitalize;
+  }
+}
+
+
+.footer {
+  padding-bottom: $section-padding-bottom;
+  color: $footer-text-color;
+
+  a {
+    color: $footer-link-color;
+
+   &:hover {
+      color: $link-hover-color;
+    }
+  }
+
+  .site-version {
+    color: $footer-version-color;
   }
 }
