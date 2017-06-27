@@ -7,6 +7,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Seapagan Opensource @ GitHub</title>
 
+    <base target="_blank">
+
     <!-- build:css -->
     <link rel="stylesheet" href="css/site.css">
     <!-- endbuild -->
@@ -34,14 +36,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Seapagan @ GitHub</a>
+      <a class="navbar-brand" target="_self" href="#">Seapagan @ GitHub</a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#update_repo">update_repo</a></li>
-        <li><a href="#confoog">confoog</a></li>
-        <li><a href="#optioneer">optioneer</a></li>
-        <li><a href="#dev-shell">dev-shell</a></li>
+        <li><a target="_self" href="#update_repo">update_repo</a></li>
+        <li><a target="_self" href="#confoog">confoog</a></li>
+        <li><a target="_self" href="#ubuntu-win-bootstrap">ubuntu-win-bootstrap</a></li>
+        <li><a target="_self" href="#optioneer">optioneer</a></li>
+        <li><a target="_self" href="#dev-shell">dev-shell</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -52,19 +55,23 @@
   <div class="container section-box">
     <p>These pages briefly describe some of my open-source projects hosted on Github, most of which will have a link to their own web pages for further information.</p>
     <div class="brief">
-      <div class="name"><a href="#update_repo">update_repo</a></div>
+      <div class="name"><a target="_self" href="#update_repo">update_repo</a></div>
       <div class="tagline">A Simple Gem to keep multiple cloned Git Repositories up to date.</div>
     </div>
     <div class="brief">
-      <div class="name"><a href="#confoog">confoog</a></div>
+      <div class="name"><a target="_self" href="#confoog">confoog</a></div>
       <div class="tagline">Use YAML Configuration files in your Ruby applications and Gems.</div>
     </div>
     <div class="brief">
-      <div class="name"><a href="#optioneer">optioneer</a></div>
+      <div class="name"><a target="_self" href="#ubuntu-win-bootstrap">ubuntu-win-bootstrap</a></div>
+      <div class="tagline">Automatically install a standard set of development tools to the Windows 10 Ubuntu Bash system (WSL).</div>
+    </div>
+    <div class="brief">
+      <div class="name"><a target="_self" href="#optioneer">optioneer</a></div>
       <div class="tagline">A Ruby Gem to parse command line options. Yes, another one!</div>
     </div>
     <div class="brief">
-      <div class="name"><a href="#dev-shell">dev-shell</a></div>
+      <div class="name"><a target="_self" href="#dev-shell">dev-shell</a></div>
       <div class="tagline">A Perl Script with layout and support files to automatically create a windows-based MSYS &#x2F; MinGW development system from scratch.</div>
     </div>
   </div>
@@ -86,7 +93,7 @@
         <h3>Summary</h3>
 <p>The script will simply run <span class="console-output">git pull</span> on every local clone of a git repository that it finds under the specified directory or directories.</p>
 <h3>Pre-requirements</h3>
-<p>It goes without saying that at the very least a working copy of both <a target="_blank" href="http://git-scm.com">Git</a> and <a target="_blank" href="https://www.ruby-lang.org">Ruby</a> need to be installed on your machine. Also, the script has only been tested under Linux, not windows.</p>
+<p>It goes without saying that at the very least a working copy of both <a target="_blank" href="http://git-scm.com">Git</a> and <a target="_blank" href="https://www.ruby-lang.org">Ruby</a> need to be installed on your machine. Also, the script has only been tested under Linux, not Windows.</p>
 <h3>Quick start</h3>
 <p>Create a <a class="icon fa-external-link" target="_blank" href="http://yaml.org/">YAML</a>-formatted configuration file called <span class="filename">.updaterepo</span> (note the 'dot' at the start!) in your home directory that contains at least a <span class="yaml-tag">location:</span> tag pointing to the directory containing the git repositories you wish to have updated :</p>
 <pre><code class="language-yaml">
@@ -110,9 +117,9 @@ location:
       </div>
         <div class="col-sm-6 capitalize">Fork <a class="icon fa-github" target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;seapagan&#x2F;update_repo">update_repo</a> on GitHub and contribute!</div>
     </div>
-    <div class="toplink">
+<!--     <div class="toplink">
       <a href="#"><span class="fa fa-arrow-up"></span> top</a>
-    </div>
+    </div> -->
   </div>
 </div>
 <div id="confoog" class="project">
@@ -174,9 +181,52 @@ settings.load # load the settings from YAML file.
       </div>
         <div class="col-sm-6 capitalize">Fork <a class="icon fa-github" target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;seapagan&#x2F;confoog">confoog</a> on GitHub and contribute!</div>
     </div>
-    <div class="toplink">
+<!--     <div class="toplink">
       <a href="#"><span class="fa fa-arrow-up"></span> top</a>
+    </div> -->
+  </div>
+</div>
+<div id="ubuntu-win-bootstrap" class="project">
+  <div class="container section-box">
+    <h1 class="capitalize">ubuntu-win-bootstrap</h1>
+    <h2>Automatically install a standard set of development tools to the Windows 10 Ubuntu Bash system (WSL).</h2>
+    <hr />
+    <div class="badges">
+      
+      
     </div>
+    <div class="row row-body">
+      <div class="col-lg-12 col-md-12">
+        <p>This is a very simple (for now) script to set up a NEW UNMODIFIED Windows Subsystem for Linux (WSL hereafter) with the following functionality :</p>
+
+<ul>
+  <li>Updated to the latest package versions from <a href="https://www.ubuntu.com/">Ubuntu</a> upstream</li>
+  <li>Have the build-essential package installed plus all required support libraries to enable the below functionality to work</li>
+  <li><a href="https://www.sublimetext.com/">Sublime Text 3</a> Editor installed as standard with Package Control and a number of useful packages</li>
+  <li>The Latest version of <a href="http://git-scm.com">Git</a> installed. A skeleton .gitconfig will be set up with a few aliases</li>
+  <li>The <a href="http://www.ruby-lang.org">Ruby</a> scripting language installed via <a href="https://github.com/rbenv/rbenv">Rbenv</a> with the current version of <a href="http://rubyonrails.org/">Rails</a> installed as standard along with several other common gems</li>
+  <li><a href="https://nodejs.org/">Node.js</a> - both the most recent LTS version and latest stable version via <a href="https://github.com/creationix/nvm">NVM</a>. The LTS version is activated by default</li>
+  <li>The <a href="https://www.python.org/">Python</a> scripting language both the latest 2.7 and 3.x versions via <a href="https://github.com/pyenv/pyenv">Pyenv</a></li>
+  <li>Install the latest STABLE a[https://www.perl.org/]{Perl} scripting language via <a href="https://perlbrew.pl/">Perlbrew</a> with cpan and cpanm pre-installed and configured. Several PERL modules that make cpan easier are also pre-installed</li>
+  <li>Enable resolution of WINS hostnames</li>
+  <li>Install <a href="https://wiki.gnome.org/Apps/Gedit">GEdit</a> (Text editor) and <a href="https://wiki.lxde.org/en/PCManFM">PCManFM</a> (file manager). Both can be run from the Bash shell using <span class="console-output">gedit</span> and <span class="console-output">pcmanfm</span> respectively</li>
+</ul>
+
+<p>Note since WSL is basically just a standard Ubuntu installation this script should also work unmodified on an Ubuntu Distribution, though currently untested.</p>
+
+<p>See the <a href="https://github.com/seapagan/ubuntu-win-bootstrap">Github repository</a> for full information.</p>
+
+      </div>
+    </div>
+    <hr />
+    <div class="row links">
+      <div class="col-sm-6 capitalize">
+      </div>
+        <div class="col-sm-6 capitalize">Fork <a class="icon fa-github" target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;seapagan&#x2F;ubuntu-win-bootstrap">ubuntu-win-bootstrap</a> on GitHub and contribute!</div>
+    </div>
+<!--     <div class="toplink">
+      <a href="#"><span class="fa fa-arrow-up"></span> top</a>
+    </div> -->
   </div>
 </div>
 <div id="optioneer" class="project">
@@ -200,9 +250,9 @@ settings.load # load the settings from YAML file.
       </div>
         <div class="col-sm-6 capitalize">Fork <a class="icon fa-github" target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;seapagan&#x2F;optioneer">optioneer</a> on GitHub and contribute!</div>
     </div>
-    <div class="toplink">
+<!--     <div class="toplink">
       <a href="#"><span class="fa fa-arrow-up"></span> top</a>
-    </div>
+    </div> -->
   </div>
 </div>
 <div id="dev-shell" class="project">
@@ -232,9 +282,9 @@ settings.load # load the settings from YAML file.
       </div>
         <div class="col-sm-6 capitalize">Fork <a class="icon fa-github" target="_blank" href="https:&#x2F;&#x2F;github.com&#x2F;seapagan&#x2F;dev-shell">dev-shell</a> on GitHub and contribute!</div>
     </div>
-    <div class="toplink">
+<!--     <div class="toplink">
       <a href="#"><span class="fa fa-arrow-up"></span> top</a>
-    </div>
+    </div> -->
   </div>
 </div>
 
