@@ -23,6 +23,15 @@
         "gembadge" : true
       },
       {
+        "name"    : "ubuntu-win-bootstrap",
+        "tagline" : "Automatically install a standard set of development tools to the Windows 10 Ubuntu Bash system (WSL).",
+        "moreinfo" : "bootstrap.html",
+        "website" : "",
+        "github"  : "https://github.com/seapagan/ubuntu-win-bootstrap",
+        "travis"   : false,
+        "gembadge" : false
+      },
+      {
         "name"    : "optioneer",
         "tagline" : "A Ruby Gem to parse command line options. Yes, another one!",
         "moreinfo" : "optioneer.html",
